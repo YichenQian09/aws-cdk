@@ -70,6 +70,12 @@
             "type": "aws:cdk:logicalId",
             "data": "AssetParametersdf62d051e4ea89f7a80194cb2acfd8ff11ed74c6442c60eea1204862f77e6b11ArtifactHash20A7B1BF"
           }
+        ],
+        "/aws-cdk-log-retention-integ/LogGroupArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LogGroupArn"
+          }
         ]
       },
       "displayName": "aws-cdk-log-retention-integ"

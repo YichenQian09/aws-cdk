@@ -213,6 +213,14 @@
               "fqn": "constructs.Construct",
               "version": "10.1.51"
             }
+          },
+          "LogGroupArn": {
+            "id": "LogGroupArn",
+            "path": "aws-cdk-log-retention-integ/LogGroupArn",
+            "constructInfo": {
+              "fqn": "@aws-cdk/core.CfnOutput",
+              "version": "0.0.0"
+            }
           }
         },
         "constructInfo": {

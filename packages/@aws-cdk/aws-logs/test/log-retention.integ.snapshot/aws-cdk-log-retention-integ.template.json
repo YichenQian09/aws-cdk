@@ -139,5 +139,36 @@
    "Type": "String",
    "Description": "Artifact hash for asset \"df62d051e4ea89f7a80194cb2acfd8ff11ed74c6442c60eea1204862f77e6b11\""
   }
+ },
+ "Outputs": {
+  "LogGroupArn": {
+   "Value": {
+    "Fn::Join": [
+     "",
+     [
+      "arn:",
+      {
+       "Ref": "AWS::Partition"
+      },
+      ":logs:",
+      {
+       "Ref": "AWS::Region"
+      },
+      ":",
+      {
+       "Ref": "AWS::AccountId"
+      },
+      ":log-group:",
+      {
+       "Fn::GetAtt": [
+        "MyLambdaCCE802FB",
+        "LogGroupName"
+       ]
+      },
+      ":*"
+     ]
+    ]
+   }
+  }
  }
 }
